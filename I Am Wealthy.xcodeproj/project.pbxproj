@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5834BFB323E0AB55004EB5DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5834BFB223E0AB55004EB5DB /* AppDelegate.swift */; };
+		5834BFB523E0AB55004EB5DB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5834BFB423E0AB55004EB5DB /* SceneDelegate.swift */; };
+		5834BFB723E0AB55004EB5DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5834BFB623E0AB55004EB5DB /* ViewController.swift */; };
+		5834BFBA23E0AB55004EB5DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5834BFB823E0AB55004EB5DB /* Main.storyboard */; };
+		5834BFBC23E0AB57004EB5DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5834BFBB23E0AB57004EB5DB /* Assets.xcassets */; };
+		5834BFBF23E0AB57004EB5DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5834BFBD23E0AB57004EB5DB /* LaunchScreen.storyboard */; };
+		5834BFCA23E0AB57004EB5DB /* I_Am_WealthyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5834BFC923E0AB57004EB5DB /* I_Am_WealthyTests.swift */; };
+		5834BFD523E0AB57004EB5DB /* I_Am_WealthyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5834BFD423E0AB57004EB5DB /* I_Am_WealthyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5834BFC623E0AB57004EB5DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5834BFA723E0AB55004EB5DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5834BFAE23E0AB55004EB5DB;
+			remoteInfo = "I Am Wealthy";
+		};
+		5834BFD123E0AB57004EB5DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5834BFA723E0AB55004EB5DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5834BFAE23E0AB55004EB5DB;
+			remoteInfo = "I Am Wealthy";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5834BFAF23E0AB55004EB5DB /* I Am Wealthy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "I Am Wealthy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5834BFB223E0AB55004EB5DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5834BFB423E0AB55004EB5DB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5834BFB623E0AB55004EB5DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5834BFB923E0AB55004EB5DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5834BFBB23E0AB57004EB5DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5834BFBE23E0AB57004EB5DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5834BFC023E0AB57004EB5DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5834BFC523E0AB57004EB5DB /* I Am WealthyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "I Am WealthyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5834BFC923E0AB57004EB5DB /* I_Am_WealthyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I_Am_WealthyTests.swift; sourceTree = "<group>"; };
+		5834BFCB23E0AB57004EB5DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5834BFD023E0AB57004EB5DB /* I Am WealthyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "I Am WealthyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5834BFD423E0AB57004EB5DB /* I_Am_WealthyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I_Am_WealthyUITests.swift; sourceTree = "<group>"; };
+		5834BFD623E0AB57004EB5DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5834BFAC23E0AB55004EB5DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5834BFC223E0AB57004EB5DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5834BFCD23E0AB57004EB5DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5834BFA623E0AB55004EB5DB = {
+			isa = PBXGroup;
+			children = (
+				5834BFB123E0AB55004EB5DB /* I Am Wealthy */,
+				5834BFC823E0AB57004EB5DB /* I Am WealthyTests */,
+				5834BFD323E0AB57004EB5DB /* I Am WealthyUITests */,
+				5834BFB023E0AB55004EB5DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5834BFB023E0AB55004EB5DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5834BFAF23E0AB55004EB5DB /* I Am Wealthy.app */,
+				5834BFC523E0AB57004EB5DB /* I Am WealthyTests.xctest */,
+				5834BFD023E0AB57004EB5DB /* I Am WealthyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5834BFB123E0AB55004EB5DB /* I Am Wealthy */ = {
+			isa = PBXGroup;
+			children = (
+				5834BFB223E0AB55004EB5DB /* AppDelegate.swift */,
+				5834BFB423E0AB55004EB5DB /* SceneDelegate.swift */,
+				5834BFB623E0AB55004EB5DB /* ViewController.swift */,
+				5834BFB823E0AB55004EB5DB /* Main.storyboard */,
+				5834BFBB23E0AB57004EB5DB /* Assets.xcassets */,
+				5834BFBD23E0AB57004EB5DB /* LaunchScreen.storyboard */,
+				5834BFC023E0AB57004EB5DB /* Info.plist */,
+			);
+			path = "I Am Wealthy";
+			sourceTree = "<group>";
+		};
+		5834BFC823E0AB57004EB5DB /* I Am WealthyTests */ = {
+			isa = PBXGroup;
+			children = (
+				5834BFC923E0AB57004EB5DB /* I_Am_WealthyTests.swift */,
+				5834BFCB23E0AB57004EB5DB /* Info.plist */,
+			);
+			path = "I Am WealthyTests";
+			sourceTree = "<group>";
+		};
+		5834BFD323E0AB57004EB5DB /* I Am WealthyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5834BFD423E0AB57004EB5DB /* I_Am_WealthyUITests.swift */,
+				5834BFD623E0AB57004EB5DB /* Info.plist */,
+			);
+			path = "I Am WealthyUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5834BFAE23E0AB55004EB5DB /* I Am Wealthy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5834BFD923E0AB57004EB5DB /* Build configuration list for PBXNativeTarget "I Am Wealthy" */;
+			buildPhases = (
+				5834BFAB23E0AB55004EB5DB /* Sources */,
+				5834BFAC23E0AB55004EB5DB /* Frameworks */,
+				5834BFAD23E0AB55004EB5DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "I Am Wealthy";
+			productName = "I Am Wealthy";
+			productReference = 5834BFAF23E0AB55004EB5DB /* I Am Wealthy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5834BFC423E0AB57004EB5DB /* I Am WealthyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5834BFDC23E0AB57004EB5DB /* Build configuration list for PBXNativeTarget "I Am WealthyTests" */;
+			buildPhases = (
+				5834BFC123E0AB57004EB5DB /* Sources */,
+				5834BFC223E0AB57004EB5DB /* Frameworks */,
+				5834BFC323E0AB57004EB5DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5834BFC723E0AB57004EB5DB /* PBXTargetDependency */,
+			);
+			name = "I Am WealthyTests";
+			productName = "I Am WealthyTests";
+			productReference = 5834BFC523E0AB57004EB5DB /* I Am WealthyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5834BFCF23E0AB57004EB5DB /* I Am WealthyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5834BFDF23E0AB57004EB5DB /* Build configuration list for PBXNativeTarget "I Am WealthyUITests" */;
+			buildPhases = (
+				5834BFCC23E0AB57004EB5DB /* Sources */,
+				5834BFCD23E0AB57004EB5DB /* Frameworks */,
+				5834BFCE23E0AB57004EB5DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5834BFD223E0AB57004EB5DB /* PBXTargetDependency */,
+			);
+			name = "I Am WealthyUITests";
+			productName = "I Am WealthyUITests";
+			productReference = 5834BFD023E0AB57004EB5DB /* I Am WealthyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5834BFA723E0AB55004EB5DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Darren Rambaud";
+				TargetAttributes = {
+					5834BFAE23E0AB55004EB5DB = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					5834BFC423E0AB57004EB5DB = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 5834BFAE23E0AB55004EB5DB;
+					};
+					5834BFCF23E0AB57004EB5DB = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 5834BFAE23E0AB55004EB5DB;
+					};
+				};
+			};
+			buildConfigurationList = 5834BFAA23E0AB55004EB5DB /* Build configuration list for PBXProject "I Am Wealthy" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5834BFA623E0AB55004EB5DB;
+			productRefGroup = 5834BFB023E0AB55004EB5DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5834BFAE23E0AB55004EB5DB /* I Am Wealthy */,
+				5834BFC423E0AB57004EB5DB /* I Am WealthyTests */,
+				5834BFCF23E0AB57004EB5DB /* I Am WealthyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5834BFAD23E0AB55004EB5DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5834BFBF23E0AB57004EB5DB /* LaunchScreen.storyboard in Resources */,
+				5834BFBC23E0AB57004EB5DB /* Assets.xcassets in Resources */,
+				5834BFBA23E0AB55004EB5DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5834BFC323E0AB57004EB5DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5834BFCE23E0AB57004EB5DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5834BFAB23E0AB55004EB5DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5834BFB723E0AB55004EB5DB /* ViewController.swift in Sources */,
+				5834BFB323E0AB55004EB5DB /* AppDelegate.swift in Sources */,
+				5834BFB523E0AB55004EB5DB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5834BFC123E0AB57004EB5DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5834BFCA23E0AB57004EB5DB /* I_Am_WealthyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5834BFCC23E0AB57004EB5DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5834BFD523E0AB57004EB5DB /* I_Am_WealthyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5834BFC723E0AB57004EB5DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5834BFAE23E0AB55004EB5DB /* I Am Wealthy */;
+			targetProxy = 5834BFC623E0AB57004EB5DB /* PBXContainerItemProxy */;
+		};
+		5834BFD223E0AB57004EB5DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5834BFAE23E0AB55004EB5DB /* I Am Wealthy */;
+			targetProxy = 5834BFD123E0AB57004EB5DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5834BFB823E0AB55004EB5DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5834BFB923E0AB55004EB5DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5834BFBD23E0AB57004EB5DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5834BFBE23E0AB57004EB5DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5834BFD723E0AB57004EB5DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5834BFD823E0AB57004EB5DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5834BFDA23E0AB57004EB5DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "I Am Wealthy/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.rambaud.I-Am-Wealthy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5834BFDB23E0AB57004EB5DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "I Am Wealthy/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.rambaud.I-Am-Wealthy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5834BFDD23E0AB57004EB5DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "I Am WealthyTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.rambaud.I-Am-WealthyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/I Am Wealthy.app/I Am Wealthy";
+			};
+			name = Debug;
+		};
+		5834BFDE23E0AB57004EB5DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "I Am WealthyTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.rambaud.I-Am-WealthyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/I Am Wealthy.app/I Am Wealthy";
+			};
+			name = Release;
+		};
+		5834BFE023E0AB57004EB5DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "I Am WealthyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.rambaud.I-Am-WealthyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "I Am Wealthy";
+			};
+			name = Debug;
+		};
+		5834BFE123E0AB57004EB5DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "I Am WealthyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.rambaud.I-Am-WealthyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "I Am Wealthy";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5834BFAA23E0AB55004EB5DB /* Build configuration list for PBXProject "I Am Wealthy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5834BFD723E0AB57004EB5DB /* Debug */,
+				5834BFD823E0AB57004EB5DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5834BFD923E0AB57004EB5DB /* Build configuration list for PBXNativeTarget "I Am Wealthy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5834BFDA23E0AB57004EB5DB /* Debug */,
+				5834BFDB23E0AB57004EB5DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5834BFDC23E0AB57004EB5DB /* Build configuration list for PBXNativeTarget "I Am WealthyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5834BFDD23E0AB57004EB5DB /* Debug */,
+				5834BFDE23E0AB57004EB5DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5834BFDF23E0AB57004EB5DB /* Build configuration list for PBXNativeTarget "I Am WealthyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5834BFE023E0AB57004EB5DB /* Debug */,
+				5834BFE123E0AB57004EB5DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5834BFA723E0AB55004EB5DB /* Project object */;
+}
